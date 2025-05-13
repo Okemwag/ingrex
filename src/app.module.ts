@@ -23,7 +23,27 @@ import { LoggingModule } from './logging/logging.module';
 import { HealthModule } from './health/health.module';
 
 @Module({
-  imports: [UsersModule, EventsModule, QrcodeModule, RemindersModule, PaymentsModule, AuthModule, MailerModule, UploadsModule, PdfModule, WebsocketsModule, AdminModule, AnalyticsModule, SearchModule, RolesModule, CacheModule, ThrottlerModule, I18nModule, LoggingModule, HealthModule],
+  imports: [
+    UsersModule,
+    EventsModule,
+    QrcodeModule,
+    RemindersModule,
+    PaymentsModule,
+    AuthModule,
+    MailerModule,
+    UploadsModule,
+    PdfModule,
+    WebsocketsModule,
+    AdminModule,
+    AnalyticsModule,
+    SearchModule,
+    RolesModule,
+    CacheModule,
+    ThrottlerModule,
+    I18nModule,
+    LoggingModule,
+    HealthModule,
+  ],
   controllers: [AppController],
   providers: [AppService, NotificationsGateway],
 })
