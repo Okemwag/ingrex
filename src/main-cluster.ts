@@ -1,4 +1,3 @@
-// src/main-cluster.ts
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import cluster from 'cluster';
